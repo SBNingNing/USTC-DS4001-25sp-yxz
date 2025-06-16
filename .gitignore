@@ -1,0 +1,33 @@
+# 忽略VAEwolabel目录及其所有内容
+VAEwolabel/
+
+# 忽略所有__pycache__目录
+__pycache__/
+**/__pycache__/
+
+# 忽略常见的Python缓存和临时文件
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.tmp
+
+# 忽略Jupyter Notebook的检查点
+.ipynb_checkpoints/
+
+# 忽略虚拟环境目录
+venv/
+env/
+.venv/
+.env/
+
+# 忽略日志文件
+*.log
+
+# 忽略数据集和输出结果
+dataset/
+output/
+results/
+
+# 忽略操作系统生成的文件
+.DS_Store
