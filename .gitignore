@@ -31,3 +31,5 @@ results/
 
 # 忽略操作系统生成的文件
 .DS_Store
+# 忽略评分结果文件
+Project/VAE/grade_result.json
